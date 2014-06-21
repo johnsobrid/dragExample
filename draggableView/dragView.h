@@ -1,5 +1,5 @@
 //
-//  dragViewController.h
+//  dragView.h
 //  draggableView
 //
 //  Created by Bridget Johnson on 21/06/14.
@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "dragView.h"
 
-@interface dragViewController : UIViewController
+@interface dragView : UIView
+
+//this needs to be public so our controller can call it
+-(void) dragging:(UIPanGestureRecognizer *)drag;
 
 @end

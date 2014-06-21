@@ -21,6 +21,7 @@
 		4F3A51A01955847300211DC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3A51821955847300211DC5 /* UIKit.framework */; };
 		4F3A51A81955847300211DC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F3A51A61955847300211DC5 /* InfoPlist.strings */; };
 		4F3A51AA1955847300211DC5 /* draggableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3A51A91955847300211DC5 /* draggableViewTests.m */; };
+		4F3A51B5195584B800211DC5 /* dragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3A51B4195584B800211DC5 /* dragView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4F3A51A51955847300211DC5 /* draggableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "draggableViewTests-Info.plist"; sourceTree = "<group>"; };
 		4F3A51A71955847300211DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F3A51A91955847300211DC5 /* draggableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = draggableViewTests.m; sourceTree = "<group>"; };
+		4F3A51B3195584B800211DC5 /* dragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dragView.h; sourceTree = "<group>"; };
+		4F3A51B4195584B800211DC5 /* dragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dragView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				4F3A518D1955847300211DC5 /* dragAppDelegate.h */,
 				4F3A518E1955847300211DC5 /* dragAppDelegate.m */,
 				4F3A51901955847300211DC5 /* Main.storyboard */,
+				4F3A51B3195584B800211DC5 /* dragView.h */,
+				4F3A51B4195584B800211DC5 /* dragView.m */,
 				4F3A51931955847300211DC5 /* dragViewController.h */,
 				4F3A51941955847300211DC5 /* dragViewController.m */,
 				4F3A51961955847300211DC5 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				4F3A518F1955847300211DC5 /* dragAppDelegate.m in Sources */,
 				4F3A51951955847300211DC5 /* dragViewController.m in Sources */,
+				4F3A51B5195584B800211DC5 /* dragView.m in Sources */,
 				4F3A518B1955847300211DC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
